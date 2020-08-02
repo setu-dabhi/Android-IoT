@@ -1,2 +1,2 @@
 # Android-IoT
-Wireless controlling and monitoring of sensors on Android devices 
+Wireless controlling and monitoring of sensors on Android devices. Reading sensor data from the android device using Termux emulator. Running python script  using pimux library inside the emulator and sending the data using MQTT protocol scripting paho-mqtt to the Mosquitto server on Raspberry Pi 4B. Using Node Red for data analysis and controlling using flow based server side scripting.
