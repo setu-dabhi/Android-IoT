@@ -1,0 +1,8 @@
+pimux module python - package for accessing termux-api
+paho-mqtt - mqtt protocol lib python
+termux emulator
+termux-api 
+Node Red
+Android device
+Raspberry pi 4B
+
