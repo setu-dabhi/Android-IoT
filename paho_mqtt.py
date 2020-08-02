@@ -1,5 +1,9 @@
 import paho.mqtt.client as mqtt #import the client1
 import time
+from pimux import Sensors
+s = Sensors.sensor()
+#AK09918C
+#"values"
 ############
 def on_message(client, userdata, message):
     print("message received " ,str(message.payload.decode("utf-8")))
@@ -19,6 +23,6 @@ client.loop_start() #start the loop
 #client.subscribe("sub")
 while True:
     print("Publishing message to topic","pub")
-    client.publish("pub","OFF")
+    client.publish("pub",s.allsensor())
     time.sleep(4) # wait
 #client.loop_stop() #stop the loop
